@@ -1,0 +1,278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8972617541254590018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/BackgroundMusic.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/emily/Documents/Important docs/Uni/Game Design/2nd Year/Rapid Prototyping/Week
+    Two - Red/RedVampireFMOD/Build/Desktop/BackgroundMusic.bank
+  Name: BackgroundMusic
+  StudioPath: bank:/BackgroundMusic
+  lastModified: 638639046880676543
+  FileSizes:
+  - Name: Desktop
+    Value: 3202400
+  Exists: 1
+--- !u!114 &-209073988472270085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/VampireBank.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/emily/Documents/Important docs/Uni/Game Design/2nd Year/Rapid Prototyping/Week
+    Two - Red/RedVampireFMOD/Build/Desktop/VampireBank.bank
+  Name: VampireBank
+  StudioPath: bank:/VampireBank
+  lastModified: 638639046885808139
+  FileSizes:
+  - Name: Desktop
+    Value: 279936
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 6358482208604637371}
+  - {fileID: -8972617541254590018}
+  - {fileID: 8758203094076031125}
+  - {fileID: -209073988472270085}
+  EditorEvents:
+  - {fileID: 3861152960027164004}
+  - {fileID: 2508564188859935127}
+  - {fileID: 3439746715532102153}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 8758203094076031125}
+  StringsBanks:
+  - {fileID: 6358482208604637371}
+  cacheTime: 638639046885808139
+  cacheVersion: 131608
+--- !u!114 &2094102872754952074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Attack/VampHitOrNo
+  m_EditorClassIdentifier: 
+  Name: VampHitOrNo
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 952040104
+    data2: 2561189711
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - YesHit
+  - NoMiss
+  Exists: 1
+--- !u!114 &2508564188859935127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vampire/Attack
+  m_EditorClassIdentifier: 
+  Path: event:/Vampire/Attack
+  Guid:
+    Data1: -1016719342
+    Data2: 1264201459
+    Data3: -1929138287
+    Data4: -297479351
+  Banks:
+  - {fileID: -209073988472270085}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 2094102872754952074}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3439746715532102153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vampire/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Vampire/Footsteps
+  Guid:
+    Data1: 589314278
+    Data2: 1210589703
+    Data3: 871380651
+    Data4: -343875585
+  Banks:
+  - {fileID: -209073988472270085}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 6235976257999229487}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3861152960027164004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/BackgroundMusic
+  m_EditorClassIdentifier: 
+  Path: event:/Music/BackgroundMusic
+  Guid:
+    Data1: 298002008
+    Data2: 1079755590
+    Data3: -395686223
+    Data4: 1072403483
+  Banks:
+  - {fileID: -8972617541254590018}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 4003869456927900492}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4003869456927900492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusic/WhatIsPlaying
+  m_EditorClassIdentifier: 
+  Name: WhatIsPlaying
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3749629659
+    data2: 628369439
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - MenuMusic
+  - GameMusic
+  Exists: 1
+--- !u!114 &6235976257999229487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Terrain
+  m_EditorClassIdentifier: 
+  Name: Terrain
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 1
+  ID:
+    data1: 2326911855
+    data2: 3335301939
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Inside
+  - Grass
+  - Mud
+  - Stone
+  Exists: 1
+--- !u!114 &6358482208604637371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/emily/Documents/Important docs/Uni/Game Design/2nd Year/Rapid Prototyping/Week
+    Two - Red/RedVampireFMOD/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638639046880886342
+  FileSizes:
+  - Name: Desktop
+    Value: 1126
+  Exists: 1
+--- !u!114 &8758203094076031125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/emily/Documents/Important docs/Uni/Game Design/2nd Year/Rapid Prototyping/Week
+    Two - Red/RedVampireFMOD/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638639046880836133
+  FileSizes:
+  - Name: Desktop
+    Value: 1036
+  Exists: 1
