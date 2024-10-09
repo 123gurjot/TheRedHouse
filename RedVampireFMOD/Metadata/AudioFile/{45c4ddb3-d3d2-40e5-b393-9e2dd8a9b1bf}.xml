@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{45c4ddb3-d3d2-40e5-b393-9e2dd8a9b1bf}">
+		<property name="assetPath">
+			<value>Vampire/Attack/Bite_5.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.49885416666666665</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{96d23eaa-3c90-492d-9265-783d2006cd4c}</destination>
+		</relationship>
+	</object>
+</objects>

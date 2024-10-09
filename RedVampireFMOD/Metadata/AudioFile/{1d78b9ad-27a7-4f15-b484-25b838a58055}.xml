@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{1d78b9ad-27a7-4f15-b484-25b838a58055}">
+		<property name="assetPath">
+			<value>Vampire/Footsteps/Stone/StoneFootsteps5.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.059999999999999998</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{96d23eaa-3c90-492d-9265-783d2006cd4c}</destination>
+		</relationship>
+	</object>
+</objects>

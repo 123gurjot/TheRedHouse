@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{47b53bf4-5556-4546-a377-d8efa8825f1e}">
+		<property name="name">
+			<value>VampHitOrNo</value>
+		</property>
+		<relationship name="folder">
+			<destination>{bb508439-9388-4dbf-a92b-14f367be0af4}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{42c1de2f-9daa-494a-ab08-f0342788f454}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{42c1de2f-9daa-494a-ab08-f0342788f454}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>YesHit</value>
+			<value>NoMiss</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

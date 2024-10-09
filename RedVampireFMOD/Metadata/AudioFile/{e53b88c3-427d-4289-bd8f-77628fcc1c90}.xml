@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e53b88c3-427d-4289-bd8f-77628fcc1c90}">
+		<property name="assetPath">
+			<value>Vampire/Footsteps/Mud/footsteps_dirt_single_04 - BenDrain - freesound.org - EDITTED.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.41572916666666665</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{96d23eaa-3c90-492d-9265-783d2006cd4c}</destination>
+		</relationship>
+	</object>
+</objects>
