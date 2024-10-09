@@ -417,10 +417,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: C:/Users/emily/Documents/Important docs/Uni/Game Design/2nd
-    Year/Rapid Prototyping/Week Two - Red/RedVampireFMOD/RedVampireFMOD.fspro
-  sourceBankPath: C:/Users/emily/Documents/Important docs/Uni/Game Design/2nd Year/Rapid
-    Prototyping/Week Two - Red/RedVampireFMOD/Build
+  sourceProjectPath: RedVampireFMOD/RedVampireFMOD.fspro
+  sourceBankPath: RedVampireFMOD/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
