@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8972617541254590018
+--- !u!114 &-2647694869778757800
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12,16 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/BackgroundMusic.bank
   m_EditorClassIdentifier: 
-  Path: C:/Users/emily/Documents/Important docs/Uni/Game Design/2nd Year/Rapid Prototyping/Week
-    Two - Red/RedVampireFMOD/Build/Desktop/BackgroundMusic.bank
+  Path: RedVampireFMOD/Build/Desktop/BackgroundMusic.bank
   Name: BackgroundMusic
   StudioPath: bank:/BackgroundMusic
-  lastModified: 638639046880676543
+  lastModified: 638640941165122789
   FileSizes:
   - Name: Desktop
     Value: 3202400
   Exists: 1
---- !u!114 &-209073988472270085
+--- !u!114 &-1841064761996212064
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -31,16 +30,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/VampireBank.bank
+  m_Name: bank:/Master.bank
   m_EditorClassIdentifier: 
-  Path: C:/Users/emily/Documents/Important docs/Uni/Game Design/2nd Year/Rapid Prototyping/Week
-    Two - Red/RedVampireFMOD/Build/Desktop/VampireBank.bank
-  Name: VampireBank
-  StudioPath: bank:/VampireBank
-  lastModified: 638639046885808139
+  Path: RedVampireFMOD/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638640941165122789
   FileSizes:
   - Name: Desktop
-    Value: 279936
+    Value: 1036
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -55,21 +53,41 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 6358482208604637371}
-  - {fileID: -8972617541254590018}
-  - {fileID: 8758203094076031125}
-  - {fileID: -209073988472270085}
+  - {fileID: 860474779647694550}
+  - {fileID: -2647694869778757800}
+  - {fileID: -1841064761996212064}
+  - {fileID: 6201561345361628558}
   EditorEvents:
   - {fileID: 3861152960027164004}
   - {fileID: 2508564188859935127}
   - {fileID: 3439746715532102153}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 8758203094076031125}
+  - {fileID: -1841064761996212064}
   StringsBanks:
-  - {fileID: 6358482208604637371}
-  cacheTime: 638639046885808139
+  - {fileID: 860474779647694550}
+  cacheTime: 638640941165152877
   cacheVersion: 131608
+--- !u!114 &860474779647694550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: RedVampireFMOD/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638640941165132791
+  FileSizes:
+  - Name: Desktop
+    Value: 1126
+  Exists: 1
 --- !u!114 &2094102872754952074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115,7 +133,7 @@ MonoBehaviour:
     Data3: -1929138287
     Data4: -297479351
   Banks:
-  - {fileID: -209073988472270085}
+  - {fileID: 6201561345361628558}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -143,7 +161,7 @@ MonoBehaviour:
     Data3: 871380651
     Data4: -343875585
   Banks:
-  - {fileID: -209073988472270085}
+  - {fileID: 6201561345361628558}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -171,7 +189,7 @@ MonoBehaviour:
     Data3: -395686223
     Data4: 1072403483
   Banks:
-  - {fileID: -8972617541254590018}
+  - {fileID: -2647694869778757800}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -206,6 +224,26 @@ MonoBehaviour:
   - MenuMusic
   - GameMusic
   Exists: 1
+--- !u!114 &6201561345361628558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/VampireBank.bank
+  m_EditorClassIdentifier: 
+  Path: RedVampireFMOD/Build/Desktop/VampireBank.bank
+  Name: VampireBank
+  StudioPath: bank:/VampireBank
+  lastModified: 638640941165152877
+  FileSizes:
+  - Name: Desktop
+    Value: 279936
+  Exists: 1
 --- !u!114 &6235976257999229487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,46 +271,4 @@ MonoBehaviour:
   - Grass
   - Mud
   - Stone
-  Exists: 1
---- !u!114 &6358482208604637371
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: C:/Users/emily/Documents/Important docs/Uni/Game Design/2nd Year/Rapid Prototyping/Week
-    Two - Red/RedVampireFMOD/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638639046880886342
-  FileSizes:
-  - Name: Desktop
-    Value: 1126
-  Exists: 1
---- !u!114 &8758203094076031125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: C:/Users/emily/Documents/Important docs/Uni/Game Design/2nd Year/Rapid Prototyping/Week
-    Two - Red/RedVampireFMOD/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638639046880836133
-  FileSizes:
-  - Name: Desktop
-    Value: 1036
   Exists: 1
